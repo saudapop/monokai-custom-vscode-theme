@@ -1,0 +1,21 @@
+{
+    "name": "custom-color-theme",
+    "displayName": "custom_color_theme",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.44.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "monokai-custom",
+                "uiTheme": "vs-dark",
+                "path": "./themes/monokai-custom-color-theme.json"
+            }
+        ]
+    }
+}
