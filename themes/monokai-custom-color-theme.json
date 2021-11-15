@@ -706,37 +706,67 @@
     //              JAVASCRIPT              //
     //////////////////////////////////////////
     {
-      "scope": "entity.name.function.*",
+      "scope": [
+        "entity.name.function.js",
+        "entity.name.function.jsx",
+        "entity.name.function.ts",
+        "entity.name.function.tsx"
+      ],
       "settings": {
         "foreground": "#A6E22E"
       }
     },
     {
-      "scope": "variable.other.property.*",
+      "scope": [
+        "variable.other.property.js",
+        "variable.other.property.jsx",
+        "variable.other.property.ts",
+        "variable.other.property.tsx"
+      ],
       "settings": {
         "foreground": "#9795ff"
       }
     },
     {
-      "scope": "meta.object-literal.key.*",
+      "scope": [
+        "meta.object-literal.key.js",
+        "meta.object-literal.key.jsx",
+        "meta.object-literal.key.ts",
+        "meta.object-literal.key.tsx"
+      ],
       "settings": {
         "foreground": "#65A9E0"
       }
     },
     {
-      "scope": "variable.other.readwrite.*",
+      "scope": [
+        "variable.other.readwrite.js",
+        "variable.other.readwrite.jsx",
+        "variable.other.readwrite.ts",
+        "variable.other.readwrite.tsx"
+      ],
       "settings": {
         "foreground": "#FD971F"
       }
     },
     {
-      "scope": "variable.other.object.*",
+      "scope": [
+        "variable.other.object.js",
+        "variable.other.object.jsx",
+        "variable.other.object.ts",
+        "variable.other.object.tsx"
+      ],
       "settings": {
         "foreground": "#FD971F"
       }
     },
     {
-      "scope": "variable.other.constant.object.*",
+      "scope": [
+        "variable.other.constant.object.js",
+        "variable.other.constant.object.jsx",
+        "variable.other.constant.object.ts",
+        "variable.other.constant.object.tsx"
+      ],
       "settings": {
         "foreground": "#AE81FF"
       }
