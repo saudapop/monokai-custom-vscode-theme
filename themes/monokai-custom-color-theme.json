@@ -706,37 +706,37 @@
     //              JAVASCRIPT              //
     //////////////////////////////////////////
     {
-      "scope": "entity.name.function.js",
+      "scope": "entity.name.function.*",
       "settings": {
         "foreground": "#A6E22E"
       }
     },
     {
-      "scope": "variable.other.property.js",
+      "scope": "variable.other.property.*",
       "settings": {
         "foreground": "#9795ff"
       }
     },
     {
-      "scope": "meta.object-literal.key.js",
+      "scope": "meta.object-literal.key.*",
       "settings": {
         "foreground": "#65A9E0"
       }
     },
     {
-      "scope": "variable.other.readwrite.js",
+      "scope": "variable.other.readwrite.*",
       "settings": {
         "foreground": "#FD971F"
       }
     },
     {
-      "scope": "variable.other.object.js",
+      "scope": "variable.other.object.*",
       "settings": {
         "foreground": "#FD971F"
       }
     },
     {
-      "scope": "variable.other.constant.object.js",
+      "scope": "variable.other.constant.object.*",
       "settings": {
         "foreground": "#AE81FF"
       }
